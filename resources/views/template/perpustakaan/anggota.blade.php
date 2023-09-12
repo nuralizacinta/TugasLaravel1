@@ -17,11 +17,11 @@
                     <input type="text" class="form-control" name="nama_anggota" placeholder="Input Nama Anggota">
                         <label>Jenis Kelamin</label>
                         <select type="text" name="jk_anggota" class="form-control">
-                          <option></option>
+                          <option>Pilihlah Jenis Kelamin</option>
                           <option value="L">Laki-Laki</option>
                           <option value="P">Perempuan</option>
                         </select>
-                    <label for="exampleInputEmail1">Jurusan anggota</label>
+                    <label for="exampleInputEmail1">Jurusan Anggota</label>
                     <input type="text" class="form-control" name="jurusan_anggota" placeholder="Input Jurusan Anggota">
                     <label for="exampleInputEmail1">No Telepon</label>
                     <input type="number" class="form-control" name="no_telp_anggota" placeholder="Input No Telp Anggota">

@@ -40,7 +40,7 @@
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Anggota
-                <span class="right badge badge-danger">New</span>
+                <span class="right badge badge-danger"></span>
               </p>
             </a>
           </li>
@@ -50,7 +50,7 @@
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Buku
-                <span class="right badge badge-danger">New</span>
+                <span class="right badge badge-danger"></span>
               </p>
             </a>
           </li>
@@ -60,10 +60,40 @@
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Petugas
-                <span class="right badge badge-danger">New</span>
+                <span class="right badge badge-danger"></span>
               </p>
             </a>
           </li>
+          
+          <li class="nav-item">
+            <a href="{{ route('rak') }}" class="nav-link" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Rak
+                <span class="right badge badge-danger"></span>
+              </p>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="{{ route('peminjaman') }}" class="nav-link" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Peminjamanan
+                <span class="right badge badge-danger"></span>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="{{ route('pengembalian') }}" class="nav-link" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Pengambilan
+                <span class="right badge badge-danger"></span>
+              </p>
+            </a>
+          </li>  
           
       </nav>
       <!-- /.sidebar-menu -->
